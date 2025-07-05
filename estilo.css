@@ -4,11 +4,13 @@
     font-family: Palatino Linotype;
     scroll-behavior: smooth;
 }
+/* Estilo do corpo da página */
 body {
   background-color: #c9b8a8;  
   color: #c9b8a8;
   
 }
+/* Cabeçalho */
 header{
     background-color: #301d39;
     text-align: center; 
@@ -16,11 +18,13 @@ header{
     text-decoration: none;
     position: relative;
 }
+/* Ícone de "home" posicionado no canto */
 .home{
     position: absolute;
     top: 40px;
     left: 80px;
 }
+/* Menu de navegação no header */
 header nav{
     padding: 40px;
     display: flex;
@@ -29,6 +33,7 @@ header nav{
     list-style-type: none;
     font-weight: 600;
 }
+/* Botões de navegação de páginas */
 header a {
     color: #c9b8a8;
     text-decoration: none;
@@ -39,6 +44,7 @@ header nav a:hover{
     transform: scale(1.08);
     transition: .2s;
 }
+/* Botão de contato */
 .botaoContato {
     color: #c9b8a8;
     background-color: #5a3044;
@@ -50,6 +56,7 @@ header nav a:hover{
     border: 0;
     cursor: pointer;
 }
+/* Conteúdo */
 main {
     color: #c9b8a8;
     padding: 40px;
@@ -66,11 +73,13 @@ main {
         
 }
 }
+/* Imagem da página principal */
 .imagem {
     width: 100%;
     margin: px;
     display: flex;
 }
+/* Rodapé de contatos */
 footer {
     background-color: #301d39;
     text-align: center; 
@@ -87,6 +96,7 @@ footer a {
     margin-top: 200px;
     margin-bottom: 200px;
 }
+/* Página de projetos */
 .container1 {
   display: flex;
   flex-direction: column;  
@@ -95,6 +105,7 @@ footer a {
   margin: 0 auto;
   padding: 20px;
 }
+/* Imagens dos projetos */
 .imagemProjeto {
   width: 250px;
   height: auto;

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Cabeçalho */
+header{
+    background-color: #301d39;
+    text-align: center; 
+    padding: 20px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+/* Ícone de "home" posicionado no canto */
+.home{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+/* Menu de navegação no header */
+header nav{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: 600;
+}
+/* Botões de navegação de páginas */
+header a {
+    color: #c9b8a8;
+    text-decoration: none;
+    font-size: 25px; 
+    display: inline-block;
+}
+header nav a:hover{
+    transform: scale(1.08);
+    transition: .2s;
+}
+/* Botão de contato */
+.botaoContato {
+    color: #c9b8a8;
+    background-color: #5a3044;
+    padding: 15px 50px;
+    font-family: Palatino Linotype;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+}
+/* Estilo do corpo da página */
+body {
+    background: #c9b8a8;
+    font-family: Palatino Linotype;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+/* Formulário de contato */
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+/* Campos de entrada e área de texto */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+/* Redimensionamento vertical do campo de mensagem */
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+/* Botão de envio */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #301d39;
+    border: none;
+    border-radius: 8px;
+    color: #c9b8a8;
+    font-size: 15px;
+    cursor: pointer;
+}
+form button:hover {
+    transform: scale(1.08);
+    transition: .2s;
+}
